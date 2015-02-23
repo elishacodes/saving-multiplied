@@ -11,77 +11,81 @@
 </head>
 <body>
 	
-	<div id="pHeader" class="container-fluid">  
+	<div id="pHeader">  
 
-			<p class="text-right col-lg-10 col-md-10 col-sm-10 col-centered">
-				<a href="#">sign in</a> | <a href="#">sign up</a>
-			</p>   	   
+		<p class="text-right col-lg-10 col-md-10 col-sm-10 col-centered"><a href="#">sign in</a> | <a href="#">sign up</a></p>   	   
 
-		
-		<div class="col-lg-10 col-md-10 col-sm-10 col-centered" id="cHeader">
-			<div class="">
-				<img src="img/savings-multiplied-logo.png" id="topLogo">
-			</div>
-			<div class="">
-			<img src="img/tagline.png" id="">
-			</div>
-		</div>
-		
-	</div>
-		
-	<div id="pNavigation" class="container-fluid">  	
-	<div class="row">	
-
-	
-		<nav class="navbar navbar-default col-lg-10 col-md-10 col-sm-10 brd" id="cNav" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="col-centered">
-	        <div class="navbar-header col-centered" id="cTest">
-	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	        </div>
+		<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->
 			
-			<div class="collapse navbar-collapse navbar-ex1-collapse col-centered">
-				<ul class="nav navbar-nav col-centered">
-		            <li><a href="#">Buy</a></li>
-		            <li><a href="#">Sell</a></li>
-		            <li><a href="#">How it Works</a></li>
-		            <li><a href="#">Links</a></li>
-		            <li><a href="#">Community</a></li>
-		            <li>            
-						<form class="navbar-form navbar-left" role="search">
-						        <div class="form-group">
-						          <input type="text" class="form-control" placeholder="Search">
-						        </div>
-
-						</form>
-	            	</li>                        
-	        	</ul>
-			</div>
-        </div>
-		</nav>
+			<!-- logo and buttons on header row are here -->
+			<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12" id="cHeader">
+					<img src="img/savings-multiplied-logo.png" id="topLogo" class="moveLeft col-lg-4 col-md-4 col-sm-4 col-xs-8">
+					<img src="img/tagline.png" id="" class="moveRight col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			</div> <!-- closes cHeader div -->
+			
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->
+		</div> <!-- closes row div -->
+				
+	</div> <!-- closes pHeader div -->
 		
-		</div>
 	
-	</div>	
 
 
-	<div id="pBody" class="container-fluid">  
-		<div class="col-lg-10 col-md-10 col-sm-10 col-centered" id="cBody">
-			Header
-		</div>
-
-	</div>
+	<div id="pNavigation">  
+		<div class="row">		
+			
+			<nav class="navbar navbar-default col-lg-10 col-md-10 col-sm-10 brd" id="cNav" role="navigation">
+	        	
+	        	<!-- Where the toggle gets grouped for better mobile display -->
+		        <div class="navbar-header" id="cTest">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+				
+				<!-- Navigation Menu Items are here -->
+				<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+			            <li><a href="#">Buy</a></li>
+			            <li><a href="#">Sell</a></li>
+			            <li><a href="#">How it Works</a></li>
+			            <li><a href="#">Links</a></li>
+			            <li><a href="#">Community</a></li>
+			            <li><form class="navbar-form navbar-right" role="search">
+					        <div class="form-group">
+					          <input type="text" class="form-control" placeholder="Search">
+					        </div>
+							</form></li>                        
+		        	</ul>
+				</div>
+			
+			</nav>
+		
+		</div> <!-- closes row div -->
 	
-	<div id="pFooter" class="container-fluid">
+	</div>	<!-- closes pNaviation div -->
+
+
+	<div id="pBody">  
+		
+		<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->			
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-centered" id="cBody">
+					Header
+				</div> <!-- closes cBody div -->
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->		
+		</div> <!-- closes row div -->
+	</div> <!-- closes pBody div -->
+	
+	<div id="pFooter">
 		<div class="col-lg-10 col-md-10 col-sm-10 col-centered" id="cFooter">Footer</div>	
 	</div>
 
-	
+
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 <!--[if lt IE 9]>
