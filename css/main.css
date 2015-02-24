@@ -74,9 +74,10 @@ li{
 	background-image: url("../img/homepage/dotted_line_44x9.png");
 	background-repeat: repeat-x;
 	height: 10px;
+	border: fuchsia solid 1px;
 }
 
-.footerLinks, a{
+.footerLinks{
 	margin: 0 1.5em;
 }
 
@@ -96,27 +97,44 @@ li{
 	width:100%;
 }
 
-.topButtons{
+#topButtons{
 	padding: 0;
 	margin: 0;
+	border: purple solid 1px;
 }
 
 .spaceButtons{
 	list-style: none;
-	display: inline-block;
+	display: inline;
 	padding: 0;
 	margin: 0;
-	text-align: center;
-
+	color: white;
 }
 
 .btn{
 	border-radius: 25px;
 }
 
+#ulButtons{
+	border: orange solid 1px;
+}
 
+#btnAbout{
+	background-color: #76CBD1;
+}
 
+#btnContact{
+	background-color: #88B526;
+}
 
+#btnBlog{
+	background-color: #70308D;
+}
 
+#btnPress{
+	background-color: #EC4E8C;
+}
 
-
+#shopNow{
+	width: 100%;
+}
