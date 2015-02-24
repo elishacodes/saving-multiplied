@@ -84,6 +84,37 @@ li{
 	margin:0;
 }
 
+.spaceSocial{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.spaceSocial img{
+	width:100%;
+}
+
+.topButtons{
+	padding: 0;
+	margin: 0;
+}
+
+.spaceButtons{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+
+.btn{
+	border-radius: 25px;
+}
+
+
 
 
 
