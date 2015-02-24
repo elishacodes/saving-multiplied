@@ -46,6 +46,17 @@ body, #pBody, #pFooter{
 
 }
 
+#cFooter{
+	color: white;
+}
+
+#cFooter a{
+	padding: 0;
+	color: white;
+
+}
+
+
 .navbar-default{
 	border: none;
 	float: none;
