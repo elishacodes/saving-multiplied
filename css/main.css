@@ -43,7 +43,7 @@ body, #pBody, #pFooter{
 	color: #6C2146;
 }
 
-.navbar .nav > li >{
+.navbar .nav > li > form div  input {
 	color: #6C2146;
 }
 
@@ -164,4 +164,13 @@ li{
 
 #shopNow{
 	width: 100%;
+}
+
+#leftAuction{
+	background-color: #EDFAD1;
+	border-radius: 25px;
+}
+
+#rightAuction{
+	background-color: gray;
 }
