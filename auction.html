@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Corben:400,700' rel='stylesheet' type='text/css'>
+	<title>Savings Multiplied</title>
+</head>
+
+<body>
+
+
+	<div id="pHeader">  
+
+		<div class="row">
+		<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->			
+		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-centered">
+		<p class="text-right"><a href="#">sign in</a> | <a href="#">sign up</a></p>   	   
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->	
+		</div>
+
+		<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->				
+			<!-- logo and buttons on header row are here -->
+			<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-centered" id="cHeader">
+				<img src="img/savings-multiplied-logo.png" id="topLogo" class="moveLeft col-lg-4 col-md-4 col-sm-6 col-xs-8">
+				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-0 moveRight" id="placeHolder"></div>
+				<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 moveRight" id="topButtons">
+					<ul id="ulButtons"  class="btn-group col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+						<li class="spaceButtons col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn col-lg-12 col-md-12 col-sm-12 col-xs-12" id="btnAbout">About</button></li>
+						<li class="spaceButtons col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn col-lg-12 col-md-12 col-sm-12 col-xs-12" id="btnContact">Contact</button></li>
+						<li class="spaceButtons col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn col-lg-12 col-md-12 col-sm-12 col-xs-12" id="btnBlog">Blog</button></li>	
+						<li class="spaceButtons col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn col-lg-12 col-md-12 col-sm-12 col-xs-12" id="btnPress">Press</button></li>	
+					</ul>						
+				</div>
+				<img src="img/tagline.png" id="" class="moveRight col-lg-7 col-md-6 col-sm-6 col-xs-12">
+			</div> <!-- closes cHeader div -->
+			
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->	
+		</div> <!-- closes row div -->
+				
+	</div> <!-- closes pHeader div -->
+
+
+
+	<div id="pNavigation">  
+		
+		<div class="row">		
+			
+			<nav class="navbar navbar-default col-lg-10 col-md-10 col-sm-12 brd" id="cNav" role="navigation">
+	        	
+	        	<!-- Where the toggle gets grouped for better mobile display -->
+		        <div class="navbar-header" id="cTest">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+				
+				<!-- Navigation Menu Items are here -->
+				<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+			            <li><a href="#">Buy</a></li>
+			            <li><a href="#">Sell</a></li>
+			            <li><a href="#">How it Works</a></li>
+			            <li><a href="#">Links</a></li>
+			            <li><a href="#">Community</a></li>
+			            <li><form class="navbar-form navbar-right" role="search">
+					        <div class="form-group">
+					          <input type="text" class="form-control" placeholder="Search" id="search">
+					        </div>
+							</form></li>                        
+		        	</ul>
+				</div>
+			
+			</nav>
+		
+		</div> <!-- closes row div -->
+	
+	</div>	<!-- closes pNaviation div -->
+
+
+	<div id="pBody">  
+		
+		<div class="row">
+
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->			
+			<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-centered" id="cBody">
+				<div class="row">
+					<div class="moveLeft col-lg-3 col-md-3 col-sm-12 col-xs-12 col-centered" id="leftAuction">
+
+					</div>  <!-- closes left Body div -->
+					
+					<div class="moveRight col-lg-9 col-md-9 col-sm-12 col-xs-12" id="rightAuction">
+
+
+					</div>  <!-- closes right Body div -->
+				</div> <!-- closes row -->
+
+
+			</div> <!-- closes cBody div -->
+			<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>	<!-- creates space to center main part of page, reduces to zero on smaller screens -->		
+		</div> <!-- closes row div -->
+	</div> <!-- closes pBody div -->
+	
+	<div id="pFooter">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-centered" id="cFooter"><p class="text-center"><a href="#" class="footerLinks">Link Here </a>|<a href="#" class="footerLinks">Link Here </a>|<a href="#" class="footerLinks">Link Here </a>|<a href="#" class="footerLinks">Link Here </a>|<a href="#" class="footerLinks">Link Here </a>|<a href="#" class="footerLinks">Link Here </a><br><br><br><br><br><br><br></p></div>	
+	</div>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</body>
+</html>
