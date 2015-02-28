@@ -1,3 +1,24 @@
+# Elisha Codes | Developer
+## Business Intelligence Centric Software Development
+
+
+### BI Tools
+1. Business Objects - Crystal Reports, Web Intelligence, Rich Client, Full Client, Universe Designer
+2. Procede - Data Insight, Excede 
+3. Microsoft - SSRS, SQL Server
+
+### Software Languages
+1. HTML5 - Jade, MD
+2. CSS3 - SASS
+3. JavaScript - jQuery
+4. Frameworks - Bootstrap, Foundation, Gumby, Min
+
+
+
+
+
+
+
 # Heading 1
 
 ## Heading 2
