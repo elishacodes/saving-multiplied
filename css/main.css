@@ -173,7 +173,7 @@ li{
 }
 
 #rightAuction{
-	background-color: gray;
+	background-color: ;
 }
 
 .Bcrumb {
@@ -184,5 +184,16 @@ li{
 		 }
 #label{color: #88B526;}
 
+.stuffs{
+	background-color: red;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
 
+.stuffs img{
+	width: 125px;
+	height: 125px;
+
+}
 
