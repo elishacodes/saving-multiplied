@@ -185,9 +185,9 @@ li{
 #label{color: #88B526;}
 
 .stuffs{
-	background-color: red;
-	margin: 20px;
-	padding: 20px;
+	background-color: #EDFAD1;
+	margin: 10px;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -195,5 +195,8 @@ li{
 	width: 125px;
 	height: 125px;
 
+}
+.breadCr {
+	background-color: white;
 }
 
