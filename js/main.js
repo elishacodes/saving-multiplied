@@ -1,6 +1,6 @@
 function getStuff() {
 	$.ajax({
-		url: "https://savingsmultipliedssh.firebaseio.com/items.json",
+		url: "https://glowing-heat-818.firebaseio.com/product.json",
 		dataType: "jsonp",
 		success : function(data){
 			console.log(data[0].image);
